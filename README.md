@@ -41,13 +41,13 @@ python detect_parking.py --source 0
 
 PROJECT STRUCTURE  
 ```
-📂 Smart-Parking-Space-Detector  
- ┣ 📂 models/              # YOLO model weights  
- ┣ 📂 data/                # Parking lot images/videos  
- ┣ 📂 utils/               # Helper functions  
- ┣ 📜 detect_parking.py    # Main script for detection  
- ┣ 📜 requirements.txt     # Dependencies  
- ┣ 📜 README.md            # Project documentation  
+ SMART PARKING DETECTOR
+ ┣  models/              # YOLO model weights  
+ ┣  data/                # Parking lot images/videos  
+ ┣  utils/               # Helper functions  
+ ┣  detect_parking.py    # Main script for detection  
+ ┣  requirements.txt     # Dependencies  
+ ┣  README.md            # Project documentation  
 ```
 
 FUTURE ENHANCEMENTS
