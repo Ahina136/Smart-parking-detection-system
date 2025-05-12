@@ -1,36 +1,36 @@
-# 🚗 Smart Parking Space Detector using YOLO and OpenCV 🅿️  
+ SMART PARKING DETECTION USING OPENCV
 
-## 🔍 Overview  
+ OVERVIEW 
 This project utilizes **YOLO (You Only Look Once) and OpenCV** to detect and monitor parking spaces in real-time. It helps optimize parking lot management by identifying vacant and occupied spots with high accuracy.  
 
-## 🛠️ Features  
-✅ **Real-time Parking Detection** using YOLOv4/YOLOv8  
-✅ **OpenCV for Image Processing**  
-✅ **Bounding Boxes & Object Detection** for parked cars  
-✅ **Customizable Parking Zone Mapping**  
-✅ **Supports Live Camera Feeds & Video Input**  
+
+ FEATURES  
+ 
+*Real-time Parking Detection** using YOLOv4/YOLOv8  
+*OpenCV for Image Processing**  
+*Bounding Boxes & Object Detection** for parked cars  
+*Customizable Parking Zone Mapping**  
+*Supports Live Camera Feeds & Video Input**  
 
 
+INSTALLATION 
 
-
-## 🏗️ Installation  
-
-### 1️⃣ Clone the Repository  
+1. Clone the Repository  
 ```sh
 git clone https://github.com/prajesdas/Smart-Parking-Space-Detector-using-YOLO-and-OpenCV.git
 cd Smart-Parking-Space-Detector-using-YOLO-and-OpenCV
 ```
 
-### 2️⃣ Install Dependencies  
+2.Install Dependencies  
 ```sh
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Download YOLO Weights  
+3.Download YOLO Weights  
 - Download YOLOv4 weights from [official YOLO website](https://pjreddie.com/darknet/yolo/) or use a pre-trained YOLOv8 model.  
 - Place the weights in the `models/` directory.  
 
-### 4️⃣ Run the Detection Script  
+4.Run the Detection Script  
 ```sh
 python detect_parking.py --source video.mp4
 ```
@@ -39,7 +39,7 @@ or for live webcam feed:
 python detect_parking.py --source 0
 ```
 
-## 📂 Project Structure  
+PROJECT STRUCTURE  
 ```
 📂 Smart-Parking-Space-Detector  
  ┣ 📂 models/              # YOLO model weights  
@@ -50,18 +50,15 @@ python detect_parking.py --source 0
  ┣ 📜 README.md            # Project documentation  
 ```
 
-## 🚀 Future Enhancements  
-🔹 Integration with a **mobile app** for user-friendly access 📱  
-🔹 Adding a **cloud database** to store parking statistics ☁️  
-🔹 Implementing **number plate recognition** for security 🔢  
+FUTURE ENHANCEMENTS
+ Integration with a **mobile app** for user-friendly access 
+ Adding a **cloud database** to store parking statistics  
+ Implementing **number plate recognition** for security  
 
-## 🤝 Contributing  
+CONTRIBUTING
 Pull requests are welcome! If you'd like to contribute, please open an issue first to discuss your ideas.  
 
-## 📜 License  
+LICENCE
 This project is **MIT Licensed**. Feel free to use and modify it.  
 
-## 📧 Contact  
-For any queries, reach out to **Prajes Das** via GitHub.  
 
-🔗 [GitHub Repository](https://github.com/prajesdas/Smart-Parking-Space-Detector-using-YOLO-and-OpenCV)  
