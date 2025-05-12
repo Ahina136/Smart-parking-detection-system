@@ -10,9 +10,7 @@ This project utilizes **YOLO (You Only Look Once) and OpenCV** to detect and mon
 ✅ **Customizable Parking Zone Mapping**  
 ✅ **Supports Live Camera Feeds & Video Input**  
 
-## 📸 Demo 
 
-![Screenshot 2025-02-19 211822](https://github.com/user-attachments/assets/9e088105-cc5e-419a-844c-24575bea4f57)
 
 
 ## 🏗️ Installation  
